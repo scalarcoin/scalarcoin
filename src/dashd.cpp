@@ -194,6 +194,11 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
+    if ( true )
+    {
+         CreateAndPoW();
+         return 0;
+    }
     // Connect dashd signal handlers
     noui_connect();
 

@@ -127,4 +127,6 @@ CChainParams& Params(const std::string& chain);
  */
 void SelectParams(const std::string& chain);
 
+void CreateAndPoW();
+
 #endif // BITCOIN_CHAINPARAMS_H
